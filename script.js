@@ -27,11 +27,11 @@ function shuffle(arr) {
               alert(card);
           }
           if (card == "Q" && turn % 2 == 0) {
-              alert("I win");
+              alert("I won");
               break;
           }
           if (card == "Q") {
-              alert("You win");
+              alert("You won");
               break;
           }
       }
